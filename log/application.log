@@ -1,0 +1,276 @@
+2022-10-03 14:45:28.108  INFO 29012 --- [main] c.pactprovider.Courses.PactProviderTest  : Starting PactProviderTest using Java 15.0.2 on RC2090 with PID 29012 (started by Administrator in F:\PACT\Courses)
+2022-10-03 14:45:28.112  INFO 29012 --- [main] c.pactprovider.Courses.PactProviderTest  : No active profile set, falling back to default profiles: default
+2022-10-03 14:45:28.885  INFO 29012 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-03 14:45:28.934  INFO 29012 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2022-10-03 14:45:29.624  INFO 29012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-10-03 14:45:29.635  INFO 29012 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-03 14:45:29.635  INFO 29012 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-10-03 14:45:29.763  INFO 29012 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-03 14:45:29.764  INFO 29012 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1435 ms
+2022-10-03 14:45:30.041  INFO 29012 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-03 14:45:30.115  INFO 29012 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-10-03 14:45:30.337  INFO 29012 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-03 14:45:30.442  INFO 29012 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-03 14:45:30.447  WARN 29012 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-10-03 14:45:30.615  INFO 29012 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-03 14:45:30.634  INFO 29012 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-10-03 14:45:31.200  INFO 29012 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-03 14:45:31.208  INFO 29012 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-03 14:45:31.567  WARN 29012 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-03 14:45:32.139  INFO 29012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54972 (http) with context path ''
+2022-10-03 14:45:32.150  INFO 29012 --- [main] c.pactprovider.Courses.PactProviderTest  : Started PactProviderTest in 4.367 seconds (JVM running for 10.308)
+2022-10-03 14:45:32.629  INFO 29012 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':SETUP
+2022-10-03 14:45:32.705  WARN 29012 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Skipping publishing of verification results as it has been disabled (pact.verifier.publishResults is not 'true')
+2022-10-03 14:45:32.705  INFO 29012 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':TEARDOWN
+2022-10-03 14:45:32.735  INFO 29012 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-03 14:45:32.737  INFO 29012 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-03 14:45:32.743  INFO 29012 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-03 14:51:58.578  INFO 25040 --- [main] com.pactprovider.CoursesApplication      : Starting CoursesApplication using Java 15.0.2 on RC2090 with PID 25040 (F:\PACT\Courses\target\classes started by Administrator in F:\PACT\Courses)
+2022-10-03 14:51:58.580  INFO 25040 --- [main] com.pactprovider.CoursesApplication      : No active profile set, falling back to default profiles: default
+2022-10-03 14:51:59.226  INFO 25040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-03 14:51:59.260  INFO 25040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interfaces.
+2022-10-03 14:51:59.735  INFO 25040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2022-10-03 14:51:59.743  INFO 25040 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-03 14:51:59.744  INFO 25040 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-10-03 14:51:59.851  INFO 25040 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-03 14:51:59.852  INFO 25040 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1089 ms
+2022-10-03 14:51:59.997  INFO 25040 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-03 14:52:00.042  INFO 25040 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-10-03 14:52:00.186  INFO 25040 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-03 14:52:00.267  INFO 25040 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-03 14:52:00.272  WARN 25040 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-10-03 14:52:00.628  INFO 25040 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-03 14:52:00.640  INFO 25040 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-10-03 14:52:01.092  INFO 25040 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-03 14:52:01.098  INFO 25040 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-03 14:52:01.346  WARN 25040 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-03 14:52:01.606  INFO 25040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
+2022-10-03 14:52:01.613  INFO 25040 --- [main] com.pactprovider.CoursesApplication      : Started CoursesApplication in 3.393 seconds (JVM running for 3.835)
+2022-10-03 14:52:16.579  INFO 7588 --- [main] c.pactprovider.Courses.PactProviderTest  : Starting PactProviderTest using Java 15.0.2 on RC2090 with PID 7588 (started by Administrator in F:\PACT\Courses)
+2022-10-03 14:52:16.579  INFO 7588 --- [main] c.pactprovider.Courses.PactProviderTest  : No active profile set, falling back to default profiles: default
+2022-10-03 14:52:17.156  INFO 7588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-03 14:52:17.198  INFO 7588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2022-10-03 14:52:17.775  INFO 7588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-10-03 14:52:17.783  INFO 7588 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-03 14:52:17.783  INFO 7588 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-10-03 14:52:17.887  INFO 7588 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-03 14:52:17.888  INFO 7588 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1156 ms
+2022-10-03 14:52:18.135  INFO 7588 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-03 14:52:18.198  INFO 7588 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-10-03 14:52:18.329  INFO 7588 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-03 14:52:18.408  INFO 7588 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-03 14:52:18.411  WARN 7588 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-10-03 14:52:18.566  INFO 7588 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-03 14:52:18.577  INFO 7588 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-10-03 14:52:19.023  INFO 7588 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-03 14:52:19.029  INFO 7588 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-03 14:52:19.317  WARN 7588 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-03 14:52:19.856  INFO 7588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55137 (http) with context path ''
+2022-10-03 14:52:19.864  INFO 7588 --- [main] c.pactprovider.Courses.PactProviderTest  : Started PactProviderTest in 3.542 seconds (JVM running for 9.201)
+2022-10-03 14:52:20.192  INFO 7588 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':SETUP
+2022-10-03 14:52:20.286  WARN 7588 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Skipping publishing of verification results as it has been disabled (pact.verifier.publishResults is not 'true')
+2022-10-03 14:52:20.286  INFO 7588 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':TEARDOWN
+2022-10-03 14:52:20.316  INFO 7588 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-03 14:52:20.318  INFO 7588 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-03 14:52:20.326  INFO 7588 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-03 14:53:24.300  INFO 9020 --- [main] c.pactprovider.Courses.PactProviderTest  : Starting PactProviderTest using Java 15.0.2 on RC2090 with PID 9020 (started by Administrator in F:\PACT\Courses)
+2022-10-03 14:53:24.300  INFO 9020 --- [main] c.pactprovider.Courses.PactProviderTest  : No active profile set, falling back to default profiles: default
+2022-10-03 14:53:24.892  INFO 9020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-03 14:53:24.935  INFO 9020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2022-10-03 14:53:25.503  INFO 9020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-10-03 14:53:25.514  INFO 9020 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-03 14:53:25.515  INFO 9020 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-10-03 14:53:25.630  INFO 9020 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-03 14:53:25.631  INFO 9020 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1170 ms
+2022-10-03 14:53:25.902  INFO 9020 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-03 14:53:25.959  INFO 9020 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-10-03 14:53:26.096  INFO 9020 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-03 14:53:26.172  INFO 9020 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-03 14:53:26.175  WARN 9020 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-10-03 14:53:26.316  INFO 9020 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-03 14:53:26.328  INFO 9020 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-10-03 14:53:26.785  INFO 9020 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-03 14:53:26.790  INFO 9020 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-03 14:53:27.062  WARN 9020 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-03 14:53:27.610  INFO 9020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55159 (http) with context path ''
+2022-10-03 14:53:27.617  INFO 9020 --- [main] c.pactprovider.Courses.PactProviderTest  : Started PactProviderTest in 3.572 seconds (JVM running for 8.943)
+2022-10-03 14:53:27.976  INFO 9020 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':SETUP
+2022-10-03 14:53:28.122  INFO 9020 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-03 14:53:28.122  INFO 9020 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-03 14:53:28.123  INFO 9020 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-10-03 14:53:28.264  WARN 9020 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Skipping publishing of verification results as it has been disabled (pact.verifier.publishResults is not 'true')
+2022-10-03 14:53:28.264  INFO 9020 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':TEARDOWN
+2022-10-03 14:53:28.297  INFO 9020 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-03 14:53:28.300  INFO 9020 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-03 14:53:28.308  INFO 9020 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-03 14:56:52.739  INFO 8688 --- [main] c.pactprovider.Courses.PactProviderTest  : Starting PactProviderTest using Java 15.0.2 on RC2090 with PID 8688 (started by Administrator in F:\PACT\Courses)
+2022-10-03 14:56:52.739  INFO 8688 --- [main] c.pactprovider.Courses.PactProviderTest  : No active profile set, falling back to default profiles: default
+2022-10-03 14:56:53.321  INFO 8688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-03 14:56:53.359  INFO 8688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+2022-10-03 14:56:53.929  INFO 8688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-10-03 14:56:53.939  INFO 8688 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-03 14:56:53.939  INFO 8688 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-10-03 14:56:54.057  INFO 8688 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-03 14:56:54.057  INFO 8688 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1163 ms
+2022-10-03 14:56:54.283  INFO 8688 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-03 14:56:54.328  INFO 8688 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-10-03 14:56:54.465  INFO 8688 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-03 14:56:54.559  INFO 8688 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-03 14:56:54.563  WARN 8688 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-10-03 14:56:54.701  INFO 8688 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-03 14:56:54.711  INFO 8688 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-10-03 14:56:55.203  INFO 8688 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-03 14:56:55.210  INFO 8688 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-03 14:56:55.480  WARN 8688 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-03 14:56:56.015  INFO 8688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55237 (http) with context path ''
+2022-10-03 14:56:56.028  INFO 8688 --- [main] c.pactprovider.Courses.PactProviderTest  : Started PactProviderTest in 3.541 seconds (JVM running for 8.562)
+2022-10-03 14:56:56.344  INFO 8688 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':SETUP
+2022-10-03 14:56:56.514  INFO 8688 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-03 14:56:56.515  INFO 8688 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-03 14:56:56.516  INFO 8688 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-10-03 14:56:56.635  WARN 8688 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Skipping publishing of verification results as it has been disabled (pact.verifier.publishResults is not 'true')
+2022-10-03 14:56:56.636  INFO 8688 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':TEARDOWN
+2022-10-03 14:56:56.661  INFO 8688 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-03 14:56:56.664  INFO 8688 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-03 14:56:56.669  INFO 8688 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-03 15:00:47.019  INFO 5352 --- [main] com.pactprovider.CoursesApplication      : Starting CoursesApplication using Java 15.0.2 on RC2090 with PID 5352 (F:\PACT\Courses\target\classes started by Administrator in F:\PACT\Courses)
+2022-10-03 15:00:47.020  INFO 5352 --- [main] com.pactprovider.CoursesApplication      : No active profile set, falling back to default profiles: default
+2022-10-03 15:00:47.670  INFO 5352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-03 15:00:47.708  INFO 5352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interfaces.
+2022-10-03 15:00:48.171  INFO 5352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2022-10-03 15:00:48.179  INFO 5352 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-03 15:00:48.179  INFO 5352 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-10-03 15:00:48.283  INFO 5352 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-03 15:00:48.284  INFO 5352 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1081 ms
+2022-10-03 15:00:48.431  INFO 5352 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-03 15:00:48.470  INFO 5352 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-10-03 15:00:48.589  INFO 5352 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-03 15:00:48.662  INFO 5352 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-03 15:00:48.665  WARN 5352 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-10-03 15:00:49.011  INFO 5352 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-03 15:00:49.023  INFO 5352 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-10-03 15:00:49.485  INFO 5352 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-03 15:00:49.490  INFO 5352 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-03 15:00:49.721  WARN 5352 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-03 15:00:49.972  INFO 5352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
+2022-10-03 15:00:49.979  INFO 5352 --- [main] com.pactprovider.CoursesApplication      : Started CoursesApplication in 3.311 seconds (JVM running for 3.741)
+2022-10-03 15:01:04.484  INFO 16080 --- [main] c.pactprovider.Courses.PactProviderTest  : Starting PactProviderTest using Java 15.0.2 on RC2090 with PID 16080 (started by Administrator in F:\PACT\Courses)
+2022-10-03 15:01:04.484  INFO 16080 --- [main] c.pactprovider.Courses.PactProviderTest  : No active profile set, falling back to default profiles: default
+2022-10-03 15:01:05.084  INFO 16080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-03 15:01:05.124  INFO 16080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2022-10-03 15:01:05.707  INFO 16080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-10-03 15:01:05.720  INFO 16080 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-03 15:01:05.720  INFO 16080 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-10-03 15:01:05.838  INFO 16080 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-03 15:01:05.838  INFO 16080 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1196 ms
+2022-10-03 15:01:06.122  INFO 16080 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-03 15:01:06.168  INFO 16080 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-10-03 15:01:06.301  INFO 16080 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-03 15:01:06.385  INFO 16080 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-03 15:01:06.389  WARN 16080 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-10-03 15:01:06.550  INFO 16080 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-03 15:01:06.562  INFO 16080 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-10-03 15:01:07.021  INFO 16080 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-03 15:01:07.028  INFO 16080 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-03 15:01:07.310  WARN 16080 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-03 15:01:07.821  INFO 16080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55315 (http) with context path ''
+2022-10-03 15:01:07.828  INFO 16080 --- [main] c.pactprovider.Courses.PactProviderTest  : Started PactProviderTest in 3.603 seconds (JVM running for 8.956)
+2022-10-03 15:01:08.160  INFO 16080 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':SETUP
+2022-10-03 15:01:08.309  INFO 16080 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-03 15:01:08.310  INFO 16080 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-03 15:01:08.310  INFO 16080 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-10-03 15:01:08.422  WARN 16080 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Skipping publishing of verification results as it has been disabled (pact.verifier.publishResults is not 'true')
+2022-10-03 15:01:08.423  INFO 16080 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':TEARDOWN
+2022-10-03 15:01:08.444  INFO 16080 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-03 15:01:08.447  INFO 16080 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-03 15:01:08.453  INFO 16080 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-03 15:03:21.715  INFO 25936 --- [main] c.pactprovider.Courses.PactProviderTest  : Starting PactProviderTest using Java 15.0.2 on RC2090 with PID 25936 (started by Administrator in F:\PACT\Courses)
+2022-10-03 15:03:21.715  INFO 25936 --- [main] c.pactprovider.Courses.PactProviderTest  : No active profile set, falling back to default profiles: default
+2022-10-03 15:03:22.291  INFO 25936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-03 15:03:22.335  INFO 25936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+2022-10-03 15:03:22.894  INFO 25936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-10-03 15:03:22.907  INFO 25936 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-03 15:03:22.907  INFO 25936 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-10-03 15:03:23.027  INFO 25936 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-03 15:03:23.028  INFO 25936 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1158 ms
+2022-10-03 15:03:23.261  INFO 25936 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-03 15:03:23.307  INFO 25936 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-10-03 15:03:23.444  INFO 25936 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-03 15:03:23.518  INFO 25936 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-03 15:03:23.522  WARN 25936 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-10-03 15:03:23.658  INFO 25936 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-03 15:03:23.669  INFO 25936 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-10-03 15:03:24.118  INFO 25936 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-03 15:03:24.124  INFO 25936 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-03 15:03:24.393  WARN 25936 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-03 15:03:24.924  INFO 25936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55338 (http) with context path ''
+2022-10-03 15:03:24.932  INFO 25936 --- [main] c.pactprovider.Courses.PactProviderTest  : Started PactProviderTest in 3.466 seconds (JVM running for 8.878)
+2022-10-03 15:03:25.259  INFO 25936 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':SETUP
+2022-10-03 15:03:25.377  INFO 25936 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-03 15:03:25.378  INFO 25936 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-03 15:03:25.378  INFO 25936 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-10-03 15:03:25.493  WARN 25936 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Skipping publishing of verification results as it has been disabled (pact.verifier.publishResults is not 'true')
+2022-10-03 15:03:25.494  INFO 25936 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':TEARDOWN
+2022-10-03 15:03:25.519  INFO 25936 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-03 15:03:25.521  INFO 25936 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-03 15:03:25.527  INFO 25936 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-03 15:04:53.046  INFO 9104 --- [main] c.pactprovider.Courses.PactProviderTest  : Starting PactProviderTest using Java 15.0.2 on RC2090 with PID 9104 (started by Administrator in F:\PACT\Courses)
+2022-10-03 15:04:53.047  INFO 9104 --- [main] c.pactprovider.Courses.PactProviderTest  : No active profile set, falling back to default profiles: default
+2022-10-03 15:04:53.621  INFO 9104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-03 15:04:53.661  INFO 9104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2022-10-03 15:04:54.231  INFO 9104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-10-03 15:04:54.240  INFO 9104 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-03 15:04:54.240  INFO 9104 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-10-03 15:04:54.362  INFO 9104 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-03 15:04:54.362  INFO 9104 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1162 ms
+2022-10-03 15:04:54.609  INFO 9104 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-03 15:04:54.658  INFO 9104 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-10-03 15:04:54.804  INFO 9104 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-03 15:04:54.884  INFO 9104 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-03 15:04:54.887  WARN 9104 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-10-03 15:04:55.026  INFO 9104 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-03 15:04:55.038  INFO 9104 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-10-03 15:04:55.485  INFO 9104 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-03 15:04:55.491  INFO 9104 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-03 15:04:55.765  WARN 9104 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-03 15:04:56.304  INFO 9104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55360 (http) with context path ''
+2022-10-03 15:04:56.313  INFO 9104 --- [main] c.pactprovider.Courses.PactProviderTest  : Started PactProviderTest in 3.523 seconds (JVM running for 8.538)
+2022-10-03 15:04:56.635  INFO 9104 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':SETUP
+2022-10-03 15:04:56.763  INFO 9104 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-03 15:04:56.764  INFO 9104 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-03 15:04:56.765  INFO 9104 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-10-03 15:04:56.886  WARN 9104 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Skipping publishing of verification results as it has been disabled (pact.verifier.publishResults is not 'true')
+2022-10-03 15:04:56.886  INFO 9104 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':TEARDOWN
+2022-10-03 15:04:56.916  INFO 9104 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-03 15:04:56.919  INFO 9104 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-03 15:04:56.925  INFO 9104 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-03 15:06:47.895  INFO 21420 --- [main] c.pactprovider.Courses.PactProviderTest  : Starting PactProviderTest using Java 15.0.2 on RC2090 with PID 21420 (started by Administrator in F:\PACT\Courses)
+2022-10-03 15:06:47.896  INFO 21420 --- [main] c.pactprovider.Courses.PactProviderTest  : No active profile set, falling back to default profiles: default
+2022-10-03 15:06:48.490  INFO 21420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-03 15:06:48.530  INFO 21420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+2022-10-03 15:06:49.090  INFO 21420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-10-03 15:06:49.097  INFO 21420 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-03 15:06:49.098  INFO 21420 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-10-03 15:06:49.206  INFO 21420 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-03 15:06:49.207  INFO 21420 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1151 ms
+2022-10-03 15:06:49.466  INFO 21420 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-03 15:06:49.514  INFO 21420 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-10-03 15:06:49.656  INFO 21420 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-03 15:06:49.737  INFO 21420 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-03 15:06:49.741  WARN 21420 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-10-03 15:06:49.892  INFO 21420 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-03 15:06:49.904  INFO 21420 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-10-03 15:06:50.346  INFO 21420 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-03 15:06:50.352  INFO 21420 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-03 15:06:50.629  WARN 21420 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-03 15:06:51.153  INFO 21420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55427 (http) with context path ''
+2022-10-03 15:06:51.160  INFO 21420 --- [main] c.pactprovider.Courses.PactProviderTest  : Started PactProviderTest in 3.51 seconds (JVM running for 8.66)
+2022-10-03 15:06:51.544  INFO 21420 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':SETUP
+2022-10-03 15:06:51.675  INFO 21420 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-03 15:06:51.675  INFO 21420 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-03 15:06:51.676  INFO 21420 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-10-03 15:06:51.780  WARN 21420 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Skipping publishing of verification results as it has been disabled (pact.verifier.publishResults is not 'true')
+2022-10-03 15:06:51.781  INFO 21420 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':TEARDOWN
+2022-10-03 15:06:51.808  INFO 21420 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-03 15:06:51.810  INFO 21420 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-03 15:06:51.815  INFO 21420 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
